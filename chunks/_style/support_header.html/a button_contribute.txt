@@ -1,0 +1,12 @@
+rounded-full
+my-4
+py-2
+px-2
+bg-blue-dark
+hover:bg-blue-lighter
+border-2
+border-white
+hover:border-blue-dark
+text-white
+hover:text-black
+link__main

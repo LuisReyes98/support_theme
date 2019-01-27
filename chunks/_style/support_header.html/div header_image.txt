@@ -1,0 +1,5 @@
+support__header
+flex
+flex-col
+justify-center
+items-center

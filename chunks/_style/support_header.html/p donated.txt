@@ -1,0 +1,4 @@
+text-white
+font-light
+mt-1
+text-sm

@@ -1,11 +1,51 @@
 {% extends "layouts/base.html" %}
 
-{% block header %}
+{% block content %}
   {{ super() }}
-  <!-- Header -->
-  <div header_image>
-    <img company__logo src="{{image_header}}" alt="Head Image">
-    
+  
+  {% include "chunks/support_header.html" %}
+  
+  <div contribution_info>
+    <div left>
+      <div donators>
+        <h3>
+          {{total_donators}}
+        </h3>
+        <p>
+          Contribuitors
+        </p>
+
+      </div>
+      <div total_donated>
+        <h3>
+          ${{total_donated}}
+        </h3>
+        <p>
+          Donated
+        </p>
+
+      </div>
+
+    </div>
+    <div main>
+      <div image_container>
+        <img logo_big src="{{image_header}}" alt="logo">
+        <h1 title> {{title}} </h1>
+
+      </div>
+      <div long_message>
+        <p>
+          {{long_message}}
+        </p>
+      </div>
+      
+
+    </div>
+    <div right>
+      
+
+    </div>
+
   </div>
 
-{% endblock header %}
+{% endblock content %}

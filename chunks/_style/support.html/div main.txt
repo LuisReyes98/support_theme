@@ -1,0 +1,8 @@
+px-1
+mx-1
+py-1
+my-1
+w-2/5
+bg-white
+rounded-sm
+shadow

@@ -1,0 +1,4 @@
+flex
+justify-center
+items-center
+flex-col
