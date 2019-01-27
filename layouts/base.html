@@ -1,0 +1,48 @@
+{% extends "^/layouts/base.html" %}
+
+{% block head %}
+  {{ super() }}
+  
+{% endblock head %}
+
+{% block title %}
+  {{ super() }}
+
+  {% if TITLE %}
+    {{ TITLE }}
+  {% else %}
+    {{ SITENAME }}
+  {% endif %}
+
+{% endblock title %}  
+
+{% block style %}
+  {{ super() }}
+  {% include "headers/supporter.html" %}
+  
+{% endblock style %}
+
+{% block header %}
+  {{ super() }}
+  <!-- Header -->
+
+{% endblock header %}
+
+{% block navigation %}
+  {{ super() }}
+  <!-- Nav bar-->
+
+{% endblock navigation %}  
+
+{% block content %}
+  {{ super() }}
+
+{% endblock content %}
+
+{% block footer %}
+  {{ super() }}
+  <!-- footer -->
+
+{% endblock footer %} 
+
+
