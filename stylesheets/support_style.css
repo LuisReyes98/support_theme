@@ -54,11 +54,23 @@
     text-decoration: none; }
 
 .logo_big {
-  width: 120px; }
+  width: 120px;
+  height: auto; }
 
 .long_message {
   font-size: 15px;
   padding: 10px;
   text-align: justify; }
+
+.subscription__plan {
+  height: auto;
+  margin: 15px 10px 15px 10px; }
+  .subscription__plan .margin__head {
+    margin: 20px; }
+  .subscription__plan .margin__desc {
+    margin: 0px 20px 20px 20px; }
+
+.donated_container {
+  height: 250px; }
 
 /*# sourceMappingURL=support_style.css.map */

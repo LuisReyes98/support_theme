@@ -1,0 +1,6 @@
+border-solid
+border
+rounded-lg
+border-grey-light
+overflow-hidden
+subscription__plan

@@ -1,0 +1,12 @@
+link__main
+w-full
+px-4
+py-4
+flex
+justify-center
+items-center
+text-sm
+text-grey-lightest
+hover:text-white
+bg-blue-dark
+hover:bg-blue

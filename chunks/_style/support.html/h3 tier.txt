@@ -1,4 +1,6 @@
 flex
-flex-wrap
 justify-center
+items-center
+py-4
 bg-grey-lighter
+text-lg

@@ -34,14 +34,52 @@
 
       </div>
       <div long_message>
-        <p>
-          {{long_message}}
-        </p>
+        {% if long_message %}
+          <p>
+            {{long_message}}
+          </p>
+        {% endif %}
       </div>
       
 
     </div>
     <div right>
+      {% if subscription_plans %}
+        <h3 tier>
+          Tiers
+        </h3>
+        {% for plan in subscription_plans %}
+          <div subscription_plan >
+            
+            <div subs_plan_details >              
+              <h3 plan_name>
+                {{plan.name}}
+              </h3>
+
+              <div cost_monthly > 
+                <h4 plan_cost>
+                  For ${{plan.cost}}              
+                </h4>
+                <p montly>
+                  per month
+                </p>
+
+              </div>
+
+            </div>
+            
+
+            <p plan_description>
+              {{plan.description}}
+            </p>
+
+            <a contribute_button href="{{plan.link}}">
+              Become a Backer
+            </a>
+
+          </div>
+        {% endfor %}
+      {% endif %}
       
 
     </div>

@@ -1,0 +1,2 @@
+font-medium
+text-2xl
