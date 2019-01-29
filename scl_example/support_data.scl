@@ -1,0 +1,63 @@
+image_header = "https://avatars0.githubusercontent.com/u/43634206?s=200&v=4"
+
+title = "Found Patterns"
+
+message = "Hosted by Lorem Lorem Lorem Open Source Lorem Lorem" 
+
+thanks = "Thanks for the support of"
+
+total_donated = 450
+
+total_donators = 20
+
+contribute_link = "#"
+
+long_message = """
+  Id excepteur consectetur incididunt duis enim est. Cupidatat nisi amet duis esse id sit aliqua. Laboris fugiat laboris nostrud proident ipsum incididunt sunt tempor exercitation excepteur ex sit et. Eiusmod eiusmod pariatur proident adipisicing proident proident laboris amet in quis aute enim excepteur. Est proident veniam magna in duis fugiat.
+  Id excepteur consectetur incididunt duis enim est. Cupidatat nisi amet duis esse id sit aliqua. Laboris fugiat laboris nostrud proident ipsum incididunt sunt tempor exercitation excepteur ex sit et. Eiusmod eiusmod pariatur proident adipisicing proident proident laboris amet in quis aute enim excepteur. Est proident veniam magna in duis fugiat.
+"""
+
+top_contribuitors = [
+  {
+    url = "page_url", 
+    image = "https://avatars0.githubusercontent.com/u/43634206?s=200&v=4", 
+    name = "Company",
+  },
+  {
+    url = "page_url2", 
+    image = "https://avatars0.githubusercontent.com/u/43634206?s=200&v=4", 
+    name = "FoundPatterns",
+  },
+  {
+    image = "https://avatars0.githubusercontent.com/u/43634206?s=200&v=4"
+  },
+  { 
+    name = "Cool"
+  },
+  {
+    url = "page_url", 
+    image = "https://avatars0.githubusercontent.com/u/43634206?s=200&v=4", 
+    name = "Company"
+  }
+]
+
+subscription_plans = [
+  {
+    name = "Bronce Plan",
+    description = "A very good plan",
+    cost = 10,
+    link = "#",
+  },
+  {
+    name = "Silver Plan",
+    description = "A very good plan Aliquip deserunt do enim veniam ut id nisi aliquip consequat elit reprehenderit aute. Voluptate veniam occaecat magna dolor laboris est fugiat ut reprehenderit ea.",
+    cost = 30,
+    link = "#",
+  },
+  {
+    name = "Platinum Plan",
+    description = "A very good plan Aliquip deserunt do enim veniam ut id nisi aliquip consequat elit reprehenderit aute. Voluptate veniam occaecat magna dolor laboris est fugiat ut reprehenderit ea.",
+    cost = 100,
+    link = "#",
+  }
+]
