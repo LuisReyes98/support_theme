@@ -12,3 +12,5 @@ sm:w-full
 md:w-1/2
 lg:w-2/5
 xl:w-2/5
+
+support__main

@@ -62,6 +62,9 @@
   padding: 10px;
   text-align: justify; }
 
+.plans__container, .support__main, .donated_container {
+  height: 0%; }
+
 .subscription__plan {
   height: auto;
   margin: 15px 10px 15px 10px; }
@@ -74,21 +77,6 @@
   padding: 12px;
   margin: 5px; }
 
-.donated_container {
-  height: 250px; }
-
-@media (min-width: 576px) {
-  .donated_container {
-    height: 250px; } }
-@media (min-width: 768px) {
-  .donated_container {
-    height: 250px; } }
-@media (min-width: 992px) {
-  .donated_container {
-    height: 350px; } }
-@media (min-width: 1200px) {
-  .donated_container {
-    height: 310px; } }
 .donated_container .twitter__link {
   background-color: #00aced; }
 .donated_container .facebook__link {
