@@ -1,0 +1,6 @@
+facebook__link
+link__main
+text-white
+inline-flex
+rounded-lg
+font-bold

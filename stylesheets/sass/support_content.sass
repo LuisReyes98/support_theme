@@ -18,5 +18,49 @@
   .margin__desc
     margin: 0px 20px 20px 20px        
 
+%social_network
+  padding: 12px
+  margin: 5px
+
+//all
+.donated_container 
+  height: 250px 
+
+//sm  
+@media (min-width: 576px)
+  .donated_container 
+    height: 250px 
+    
+
+//md  
+@media (min-width: 768px) 
+  .donated_container 
+    height: 250px 
+
+//lg  
+@media (min-width: 992px)
+  .donated_container 
+    height: 350px 
+
+//xl  
+@media (min-width: 1200px)
+  .donated_container 
+    height: 310px 
+
+
 .donated_container
-  height: 250px
+
+  .twitter__link
+    @extend %social_network
+    background-color: #00aced
+
+  .facebook__link
+    @extend %social_network
+
+    background-color: #3b5998
+
+  .discord__link
+    @extend %social_network
+
+    background-color: #7289da
+

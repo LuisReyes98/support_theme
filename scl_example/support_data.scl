@@ -59,5 +59,17 @@ subscription_plans = [
     description = "A very good plan Aliquip deserunt do enim veniam ut id nisi aliquip consequat elit reprehenderit aute. Voluptate veniam occaecat magna dolor laboris est fugiat ut reprehenderit ea.",
     cost = 100,
     link = "#",
+  },
+  {
+    name = "PremiumPlan",
+    description = "A very good plan Aliquip deserunt do enim veniam ut id nisi aliquip consequat elit reprehenderit aute. Voluptate veniam occaecat magna dolor laboris est fugiat ut reprehenderit ea.",
+    cost = 200,
+    link = "#",
   }
 ]
+
+facebook_link = "#"
+
+twitter_link = "#"
+
+discord_link = "#"

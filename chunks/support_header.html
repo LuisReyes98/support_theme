@@ -8,14 +8,15 @@
     {% for contribuitor in top_contribuitors %}
     <div contribuitor>
       {% if contribuitor.url %}
-      <a link_contribution href="{{contribuitor.url}}" target="_blank">
-        {% else %}
+        <a link_contribution href="{{contribuitor.url}}" target="_blank">
+      {% else %}
         <a link_contribution href="#">
-          {%endif%}
-          {% if contribuitor.image %}
-          <img logo_small src="{{contribuitor.image}}" alt="logo">
+      {%endif%}
 
-          {% endif%}
+      {% if contribuitor.image %}
+        <img logo_small src="{{contribuitor.image}}" alt="logo">
+      {% endif%}
+
           {% if contribuitor.name %}
           <p company_name>
             {{contribuitor.name}}
