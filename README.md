@@ -1,4 +1,4 @@
-Lighttouch theme of a support/donate template 
+### Lighttouch theme of a support/donate template 
 
 main file: /chunks/support.html
 
