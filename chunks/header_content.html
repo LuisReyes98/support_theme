@@ -1,0 +1,21 @@
+{% if thanks %}
+
+<p thanks_message>
+  {{thanks}}
+</p>
+<div total_donated>
+  <p donated>
+    Total donated
+  </p>
+  <p ammount_donated>
+    ${{total_donated}}
+  </p>
+
+</div>
+
+{% endif%}
+
+<!-- contribute button -->
+<a button_contribute href="{{contribute_link}}">
+  Contribute
+</a>
