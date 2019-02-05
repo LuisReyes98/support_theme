@@ -1,7 +1,7 @@
 <div left>
   <div donators>
     <h3>
-      {{total_donators}}
+      {{support.total_donators}}
     </h3>
     <p>
       Contribuitors
@@ -10,7 +10,7 @@
   </div>
   <div total_donated>
     <h3>
-      ${{total_donated}}
+      ${{support.total_donated}}
     </h3>
     <p>
       Donated
@@ -18,24 +18,24 @@
 
   </div>
   <div socialnetworks>
-    {% if facebook_link %}
-      <a facebook href="{{facebook_link}}" target="_blank">
+    {% if support.facebook_link %}
+      <a facebook href="{{support.facebook_link}}" target="_blank">
         <i logo_facebook></i>
         <p> Share </p>
       </a>
   
     {% endif %}
   
-    {% if twitter_link %}
-      <a twitter href="{{twitter_link}}" target="_blank">
+    {% if support.twitter_link %}
+      <a twitter href="{{support.twitter_link}}" target="_blank">
         <i logo_twitter></i>
         <p>Tweet</p>
       </a>
   
     {% endif %}
   
-    {% if discord_link %}
-      <a discord href="{{discord_link}}" target="_blank">
+    {% if support.discord_link %}
+      <a discord href="{{support.discord_link}}" target="_blank">
         <i logo_discord></i>
         <p>Join</p>
       </a>

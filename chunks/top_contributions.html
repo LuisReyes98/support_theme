@@ -1,6 +1,6 @@
-{% if top_contribuitors %}
+{% if support.top_contribuitors %}
 <div top_contribuitors>
-  {% for contribuitor in top_contribuitors %}
+  {% for contribuitor in support.top_contribuitors %}
   <div contribuitor>
     {% if contribuitor.url %}
     <a link_contribution href="{{contribuitor.url}}" target="_blank">
