@@ -1,7 +1,11 @@
 <div left>
   <div donators>
     <h3>
-      {{support.total_donators}}
+      {% if support.total_donators %}
+        {{support.total_donators}}
+      {%else%}
+        N/A
+      {% endif %}
     </h3>
     <p>
       Contribuitors
@@ -10,7 +14,11 @@
   </div>
   <div total_donated>
     <h3>
-      ${{support.total_donated}}
+      {% if support.total_donated %}
+        ${{support.total_donated}}
+      {%else%}
+        N/A
+      {% endif %}      
     </h3>
     <p>
       Donated

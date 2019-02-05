@@ -1,7 +1,7 @@
 <div main>
   <div image_container>
-    <img logo_big src="{{support.image_header}}" alt="logo">
-    <h1 title> {{support.title}} </h1>
+    <img logo_big src="{%if support.image_header%}{{support.image_header}}{% endif %}" alt="logo">
+    <h1 title>{%if support.title%}{{support.title}}{% endif %}</h1>
 
   </div>
   <div long_message>

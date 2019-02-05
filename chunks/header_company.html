@@ -1,4 +1,4 @@
 
-<img company__logo src="{{support.image_header}}" alt="Head Image">
-<h1 title> {{support.title}} </h1>
-<p message> {{support.message}} </p>
+<img company__logo src="{%if support.image_header%}{{support.image_header}}{% endif %}" alt="Head Image">
+<h1 title>{%if support.title%}{{support.title}}{% endif %}</h1>
+<p message>{%if support.message%}{{support.message}}{% endif %}</p>

@@ -16,6 +16,6 @@
 {% endif%}
 
 <!-- contribute button -->
-<a button_contribute href="{{support.contribute_link}}">
+<a button_contribute href="{% if support.contribute_link %}{{support.contribute_link}}{% endif%}">
   Contribute
 </a>
